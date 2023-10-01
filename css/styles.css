@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* contenedor card-red  */
+.card-red {
+    background-color: #cc3843;
+    display: flex;
+    align-items: center;
+    width: 480px;
+    height: 553px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card-red>img {
+    height: 90%;
+    opacity: .4;
+    margin-right: 10px;
+}
+
+/* contenedor card-blue */
+.card-blue {
+    display: flex;
+    align-items: center;
+    background-color: #0c1f2c;
+    width: 654px;
+    height: 479px;
+    border-radius: 20px;
+    color: white;
+}
+
+.card-blue>img {
+    position: relative;
+    left: -150px;
+}
+
+.card-blue-content {
+    /* width: 300px; */
+    position: relative;
+    left: -70px;
+}
+
+.content-titulo {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.content-precio {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+/* contendor lista de tamaños */
+.content-tamaños-titulo {
+    font-size: 15px;
+}
+
+.lista-tamaños {
+    display: flex;
+    padding: 0;
+    margin-top: 5px;
+    gap: 10px;
+}
+
+.lista-tamaños a {
+    display: flex;
+    padding: 5px;
+    border-radius: 50%;
+    border: transparent solid 1px;
+}
+
+.lista-tamaños a:hover {
+    border: red solid 1px;
+}
+
+.lista-tamaños a {
+    color: white;
+    font-size: 10px;
+}
+
+.content-button {
+    margin-top: 25px;
+    height: 48px;
+    font-size: 12px;
+}
+
+.button-añadir {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+}
